@@ -1,0 +1,757 @@
+/* main css */
+
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* navbar */
+
+.navbar-header{
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.navbar-info h1{
+    font-weight: 700;
+    font-size: 28px;
+    color: #000000;
+}
+
+.navbar-item{
+    color: #000000B2;
+    display: flex;
+}
+
+.navbar-item p{
+    font-weight: 500;
+    font-size: 15px;
+    padding-right: 15px;
+}
+
+.navbar-item h5{
+    font-weight: 500;
+    font-size: 18px;
+    display: block;
+}
+
+.navbar-list{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar-list a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.number span{
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.number p{
+    color: rgba(0, 0, 0, 1);
+}
+
+/* navbar */
+
+/* banner section */
+
+.banner-section{
+    width: 100%;
+    height: 500px;
+    background: url("./image/cameramen.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.banner-info{
+    padding-top: 80px;
+    color: #ffffff;
+    position: absolute;
+    z-index: 2;
+}
+
+.banner-text h1{
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.banner-text p{
+    font-weight: 500;
+    font-size: 24px;
+    margin: 20px 0px;
+}
+
+.btn-primary{
+    padding: 10px 15px;
+    background-color: #F86624;
+    color: #ffffff;
+    border-radius: 20px;
+    border: none;
+    transition: all 0.5s ease-in
+}
+
+.btn-primary:hover{   
+    background-color: #ffffff;
+    color: #F86624;
+}
+
+.btn-secondary{
+    margin-left: 30px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: transparent;
+    color: #F86624;
+    transition: all 0.5s ease-in
+}
+
+.btn-secondary:hover{
+    background-color: #F86624;
+    color: #ffffff;
+}
+
+.banner-overlow{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(102, 46, 155, 0.4);
+    left: 0;
+    top: 0;
+    opacity: 1;
+    z-index: 1;
+}
+
+/* banner section */
+
+/* box section */
+
+.box-info{
+    color: #ffffff;
+}
+
+.box-item{
+    margin-top: 70px;
+    text-align: center;
+}
+
+.box-header{
+    color: #EA3546;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.box-item h1{
+    font-weight: 700;
+    font-size: 64px;
+    color: #000000;
+    margin: 30px 0px;
+}
+
+.box-item p{
+    font-weight: 500;
+    font-size: 24px;
+    color: #000000B2;
+}
+
+.box-img{
+    margin-top: 70px;
+    text-align: center;
+    display: flex;
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.box-img__2{
+    text-align: center;
+    display: flex;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.boxs-1{
+    border-radius: 10px;
+    width: 25%;
+    height: 350px;
+    background: url("./image/image1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.boxs-2{
+    border-radius: 10px;
+    width: 25%;
+    height: 350px;
+    background: url("./image/74a2a499aad21c4f47b0d4dc07ab150b.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.boxs-3{
+    border-radius: 10px;
+    width: 25%;
+    height: 350px;
+    background: url("./image/37f323b5884233b182edd7eca67141f7.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.boxs-4{
+    border-radius: 10px;
+    width: 25%;
+    height: 350px;
+    background: url("./image/63b85f4cc0ec9cbd519dfbea11819b8a.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.boxs-5{
+    border-radius: 10px;
+    width: 25%;
+    height: 350px;
+    background: url("./image/75bf902d2626dbfa7380ed6bcc308031.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.boxs-6{
+    border-radius: 10px;
+    width: 25%;
+    height: 350px;
+    background: url("./image/1b38c84c9b63834dd6137f0a6430f892.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.box-img{
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    position: relative;
+}
+
+.box p{
+    z-index: 2;
+    padding: 15px 20px;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: linear-gradient(0deg, #000000, #000000),
+    linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%);
+    opacity: 0.5;
+    z-index: 1;
+}
+
+/* box section */
+
+/* photo section */
+
+.photo-section{
+    margin-top: 140px;
+    width: 100%;
+    height: 700px;
+    background: url("./image/camerachi\ 2.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #662E9B66;
+    position: relative;
+}
+
+.photo-info{
+    color: #ffffff;
+    position: relative;
+    padding: 30px;
+    z-index: 2;
+}
+
+.photo-info i{
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.photo-item{
+    text-align: center;
+}
+
+.photo-item p{
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.photo-item h1{
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.photo-boxs{
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+}
+
+.photo-boxs h5{
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.photo-boxs p{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.photo-boxs__2{
+    margin-top: 140px;
+    text-align: center;
+    display: flex;
+}
+
+.photo-boxs__2 h5{
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.photo-boxs__2 p{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.photo-box__1{
+    width: 20%;
+}
+
+.photo-info h5{
+    padding-bottom: 20px;
+}
+
+.banner-overlow{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(102, 46, 155, 0.4);
+    left: 0;
+    top: 0;
+    opacity: 1;
+    z-index: 1;
+}
+
+/* photo section */
+
+/* poster section */
+
+.poster-section{
+    margin-top: 50px;
+}
+
+.poster-item{
+    text-align: center;
+}
+
+.poster-item h2{
+    font-weight: 700;
+    font-size: 48px;
+    margin-top: 120px;
+    padding-bottom: 30px;
+    color: #000000;
+}
+
+.poster-item p{
+    font-weight: 600;
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 70px;
+}
+
+.poster-input{
+    display: flex;
+    text-align: center;
+}
+
+.poster-input input{
+    border-radius: 15px;
+    padding: 10px ;
+}
+
+.poster-p{
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* poster section */
+
+/* coment section */
+
+.coment-section{
+    margin-top: 120px;
+    padding: 50px 0;
+    background-color: #F7F8FA;
+}
+
+.coment-boxs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.coment-box{
+    text-align: center;
+    width: 31%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 1px solid #0000001A;
+    border-radius: 10px;
+}
+
+.coment-box p{
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.coment-box h5{
+    padding-top: 30px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.coment-box img{
+   height: 150px;
+   width: 150px;
+   border-radius:100%;
+}
+
+.coment-item{
+    padding-top: 70px;
+    text-align: center;
+}
+
+.coment-item h1{
+    font-weight: 700;
+    font-size: 64px;
+    color: #000000;
+}
+
+.coment-item p{
+    padding-bottom: 40px;
+    font-weight: 500;
+    font-size: 24px;
+    color: #000000B2;
+}
+
+/* coment section */
+
+/* takin section */
+
+.takin-section{
+    width: 100%;
+    height: 650px;
+    background: url("./image/rasmga\ ol.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.takin{
+    position: relative;
+    z-index: 2;
+}
+
+.takin-info{
+    color: #ffffff;
+    text-align: center;
+}
+
+.takin-info h1{
+    font-weight: 700;
+    font-size: 48px;
+    padding-top: 60px;
+}
+
+.takin-info p{
+    font-weight: 500;
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+.takin-boxs{
+    margin-top: 40px;
+    display: flex;
+}
+
+.takin-p{
+    font-weight: 500;
+    font-size: 15px;
+    padding: 10px 0px;
+    color: #F86624;
+}
+
+.takin-p__2{
+    color: #000000;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.takin-box{
+    padding: 20px 30px ;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.item{
+    margin: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.item i{
+    color: #F86624;
+}
+
+.item p{
+    color: #000000;
+}
+
+#takin-i{
+    color: #00000033;
+}
+
+.banner-overlow{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(102, 46, 155, 0.4);
+    left: 0;
+    top: 0;
+    opacity: 1;
+    z-index: 1;
+}
+
+/* takin section */
+
+/* position section */
+
+.position-section{
+    margin-top: 100px;
+}
+
+.position-info{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.position-text{
+    width: 50%;
+}
+
+.position-item{
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000B2;
+}
+
+.position-red{
+    font-weight: 600;
+    font-size: 18px;
+    color: #EA3546;
+}
+
+.position-item h1{
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 48px;
+    color: #000000;
+}
+
+.position-p{
+    margin: 20px 0px;
+}
+
+.position-img{
+    width: 50%;
+    top: 30px;
+    position: relative;
+}
+
+.rasm{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    position: absolute;
+    top: -100px;
+    right: 200px;
+}
+
+.rasm2{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+
+/* position section */
+
+/* img section */
+
+.img-section{
+    margin-top: 70px;
+    width: 100%;
+    height: 600px;
+    background: url("./image/image0.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+/* img section */
+
+/* input section */
+
+.input-section{
+    margin-top: 70px;
+    text-align: center;
+}
+
+.input-heder h1{
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.input-header p{
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.input-form{
+    color: #00000033;
+    margin-top: 30px;
+}
+
+.input-form form{
+    margin: 10px 0px;
+}
+
+.input-form input{
+    padding: 5px 10px;
+}
+
+.input-label{
+    color: #333333;
+    margin-top: 30px;
+}
+
+.input-p{
+    margin-bottom: 10px ;
+}
+
+.input-p p{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.input label{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.input form{
+    margin: 5px 0px;
+}
+
+.input-footer p{
+    font-weight: 700;
+    font-size: 18px;
+    color: Text Light / Label;
+}
+
+.input-footer p{
+    margin-top: 10px;
+}
+
+.input-footer button{
+    margin-top: 20px;
+}
+
+.input-footer__p{
+    color: #F86624;
+}
+
+/* input section */
+
+/* kata section */
+
+.karta-section{
+    width: 100%;
+    height: 300px;
+    background: url("./image/karta.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.karta-item{
+    margin-right: 50px;
+    width: 50%;
+    height: 300px;
+    background-color: #662E9B;
+    color: #ffffff;
+}
+
+.karta-text{
+    padding-top: 70px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+/* kata section */
+
+/* footer section */
+
+.footer-section{
+    margin-top: 70px;
+    text-align: center;
+}
+
+.footer-icon i{
+    color: #F86624;
+    font-size: 35px;
+}
+
+.footer-ul{
+    padding: 30px 0px;
+}
+
+.footer-li{
+    display: flex; 
+    list-style: none;
+}
+
+.footer-li a{   
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;  
+    color: #000000CC;
+}
+
+footer p{
+    color: #00000099;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+/* footer section */
+
+/* /main css */
